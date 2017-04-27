@@ -23,6 +23,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="pom3.py" />
+    <Compile Include="requirements.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="requirements_tree.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="team.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="teams.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -23,16 +23,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="pom3.py" />
-    <Compile Include="requirements.py">
+    <Compile Include="pom3_requirements.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="requirements_tree.py">
+    <Compile Include="pom3_requirements_tree.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="team.py">
+    <Compile Include="pom3_team.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="teams.py">
+    <Compile Include="pom3_teams.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="__init__.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

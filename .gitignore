@@ -241,3 +241,4 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 /pom3/__pycache__
+/pom3.pyproj

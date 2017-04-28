@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f65f847a-757b-418c-a619-59391e23b58c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pom3.py</StartupFile>
+    <StartupFile>pom3\pom3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,22 +22,31 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="pom3.py" />
-    <Compile Include="pom3_requirements.py">
+    <Compile Include="pom3\pom3.py" />
+    <Compile Include="pom3\pom3_requirements.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pom3_requirements_tree.py">
+    <Compile Include="pom3\pom3_requirements_tree.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pom3_team.py">
+    <Compile Include="pom3\pom3_team.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pom3_teams.py">
+    <Compile Include="pom3\pom3_teams.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="__init__.py">
+    <Compile Include="setup.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="pom3\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pom3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LICENSE.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

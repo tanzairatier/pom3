@@ -7,7 +7,7 @@ setup(
   author = 'Joseph Krall',
   author_email = 'kralljoe@gmail.com',
   url = 'https://github.com/tanzairatier/pom3', 
-  download_url = 'https://github.com/peterldowns/mypackage/archive/0.1.tar.gz', # I'll explain this in a second
-  keywords = ['agile', 'requirements', 'engineering', 'simulation', 'jmoo'], # arbitrary keywords
+  download_url = 'https://github.com/tanzairatier/pom3/archive/1.0.tar.gz',
+  keywords = ['agile', 'requirements', 'engineering', 'simulation', 'jmoo'],
   classifiers = [],
 )
